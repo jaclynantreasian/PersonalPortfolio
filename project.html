@@ -1,92 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Jaclyn Antreasian Portfolio</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    </head>
-    <body>
-        <nav>
-            <a><img src="images/logocol.png" alt="Gather logo"/></a>
-            <a href="/project.html">Work</a>
-            <a href="/about.html">About</a>
-            <a href="/resume.html">Resume</a>
-            <a href="/contact.html">Get in Touch</a>
-        </nav>
+<head>
+    <title>Jaclyn Antreasian Portfolio</title>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,200i,300i,400,400i,500,500i,600,600i,900i" rel="stylesheet">    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script type="text/javascript" src="js/circles.js"></script>
 
-        <section class="gatherIntro">
-            <img src="images/gatherlogo.png" alt="Gather logo"/>
-            <img src="images/mockup2.png" alt="desktop and phone mockup for Gather"/>
-            <h2>The Cloud, Connected</h2>
-            <h5>An intuitive, accessible and inclusive solution to cloud storage</h5>
-            <input type="button" value="View Invision Prototype" onclick="window.location.href='https://invis.io/2UKGVXTARZH'" />
-        </section>
+
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+        <img class="header__logo" src="images/logo.png" alt="Jaclyn Antreasian Logo"></a>
+        <i class="header__button fas fa-bars"></i>
+        <nav class="header__nav hidden">
+            <a href="./project.html"> <i class="fas fa-pencil-alt"></i>Work</a>
+            <a href="./about.html"><i class="far fa-user"></i>About</a>
+            <a href="./resume.html"><i class="far fa-file-alt"></i>Resume</a>
+            <a href="./contact.html"><i class="far fa-handshake"></i>Contact</a>
+        </nav>
+    </header>
+        <section class="container">
+        <article class="gatherIntro">
+            <h1 class="project_title"> Gather</h1>
+            <h5 class="project_page_sub">An intuitive, accessible and inclusive solution to cloud storage</h5>
+            <a class="cta__button" href="https://invis.io/2UKGVXTARZH">View the Invision Prototype</a>
+            <img class="featured__image" src="images/mockup2.png" alt="desktop and phone mockup for Gather"/>
+        </article>
 
         <section class="rl">
             <article class= "roles">
                 <i class="fas fa-pencil-ruler"></i>
-                <h5>Roles</h5>
-                        <p>Research</p>
-                        <p>Branding</p>
-                        <p>Visual Design</p>
-                        <p>User Testing</p>
-                        <p>Identity</p>
+                <h5 class="paragraph__headline">Roles</h5>
             </article>
+            <section class="intro_text">
+                        <p class="intro_paragraph">Research</p>
+                        <p class="intro_paragraph">Branding</p>
+                        <p class="intro_paragraph">Visual Design</p>
+                        <p class="intro_paragraph">User Testing</p>
+                        <p class="intro_paragraph">Identity</p>
+            </section>
             <article class="deliverables">
                 <i class="fas fa-tv"></i>
-                <h5>Deliverables</h5>
-                    <p>Low-Fidelity Wireframes</p>
-                    <p>User Personas</p>
-                    <p>Sitemap and User flows</p>
-                    <p>Logo design</p>
-                    <p>Style Guide</p>
-                    <p>Responsive App Design</p>
+                <h5 class="paragraph__headline">Deliverables</h5>
             </article>
+                <section class="intro_text">
+                    <p class="intro_paragraph">Low-Fidelity Wireframes</p>
+                    <p class="intro_paragraph">User Personas</p>
+                    <p class="intro_paragraph">Sitemap and User flows</p>
+                    <p class="intro_paragraph">Logo design</p>
+                    <p class="intro_paragraph">Style Guide</p>
+                    <p class="intro_paragraph">Responsive App Design</p>
+                </section>
             <article class="tools">
                 <i class="fas fa-wrench"></i>
-                <h5>Tools</h5>
-                    <p>Figma</p>
-                    <p>Usability Hub</p>
-                    <p>Illustrator</p>
-                    <p>Invision</p>
-                    <p>Draw.io</p>
+                <h5 class="paragraph__headline">Tools</h5>
             </article>
+            <section class="intro_text">
+                    <p class="intro_paragraph">Figma</p>
+                    <p class="intro_paragraph">Usability Hub</p>
+                    <p class="intro_paragraph">Illustrator</p>
+                    <p class="intro_paragraph">Invision</p>
+                    <p class="last intro_paragraph">Draw.io</p>
         </section>
         <section class="probsolution">
             <article class="problem">
-            <h5>Problem</h5>
-            <p>Managing your content on cloud storage can be a cluttered and disorganized experience.
+            <h5 class="orange_header">Problem</h5>
+            <p class="paragraph_white">Managing your content on cloud storage can be a cluttered and disorganized experience.
              Cloud storage services are generally lacking in versatility or trying to do too many things
              at once.  Because of this, users find themselves juggling between many cloud storage sites.
             Gather strives to simplify cloud storage by making it easy to keep your content all in one place.</p>
             </article>
             <article class="solution">
-                <h5>Solution</h5>
-                <p>Gather gives you more time to focus on what matters with intuitive organization, seamless
+                <h5 class="orange_header">Solution</h5>
+                <p class="paragraph_white">Gather gives you more time to focus on what matters with intuitive organization, seamless
                     collaboration and versatile uploading, all in one place.  With Gather you can upload any
-                    time of file and organize it with visual folders and categories.  Sharing and content
+                    type of file and organize it with visual folders and categories.  Sharing and content
                     creation keep you connected and give you an all in one solution to cloud storage.</p>
             </article>
     </section>
     <section class="discover">
-            <h2 class="heading"> Discovery </h2>
-            <h5 class="subhead">User survey</h5>
-            <p>
+            <h2 class="heading"> DISCOVERY </h2>
+            <hr/>
+            <h5 class="paragraph__headline">User survey</h5>
+            <p class='paragraph__text'>
                 Coming up with Gather had to begin by understanding cloud storage users needs and pain points.
-                In my user survey I wanted to figure out:</p>
-            <p>
-                What did users love about cloud storage?
-                What features are actually used in cloud storage apps, and what is filler?
-                get a sense of where their frustrations were when using cloud storage.
+                In my user survey I wanted to figure out both what users loved about cloud storage and where their specific pain points were.
+                Since cloud storage is a relatively new market, I was also interested in seeing what features users would like to see in the future and which ones they could do without.
             </p>
-            <p class="infographics">
-                79% of users use Google Drive for cloud storage
-            </p>
-            <p class="infographics">
-                39% of users liked the idea of having all their files in one place
-            </p>
-            <p class="infographics">
-                27% said it was hard to keep their cloud storage organized</p>
-            <p>
+            <div class='survey__circles'>
+                <div class="survey__graph">
+                    <div class="survey__graph-container">
+                        <div class="survey__graph-circle" id="one-circle">
+                        </div>
+                        <p class="survey__graph-caption">
+                        use Google Drive for cloud storage
+                        </p>
+                    </div>
+                </div>
+                <div class="survey__graph">
+                    <div class="survey__graph-container">
+                        <div class="survey__graph-circle" id="two-circle">
+                        </div>
+                        <p class="survey__graph-caption">
+                            like having all their files in one place
+                        </p>
+                    </div>
+                </div>
+
+                <div class="survey__graph">
+                    <div class="survey__graph-container">
+                        <div class="survey__graph-circle" id="three-circle">
+                        </div>
+                        <p class="survey__graph-caption last">
+                            find it hard to stay organized with cloud storage
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <p class='paragraph__text'>
                 After completing the survey, I realized that users really needed a cloud storage app that could
                 meet their expectations of organization and versatility.  The ability to create content, upload
                 any type of file and have robust sharing features was what users weren’t finding in the
@@ -94,48 +132,113 @@
                 disorganized and frustrated.
             </p>
             <article class="swot">
-            <p>The needs of cloud storage users were simple, sharing and uploading any type of file with anyone. I needed to create a cloud storage app that made it simple to keep track of your content and share it.
+            <p class="paragraph__text">The needs of cloud storage users were simple, sharing and uploading any type of file with anyone. I needed to create a cloud storage app that made it simple to keep track of your content and share it.
             </p>
-                <img src="images/dropbox.png" alt="dropbox logo"/>
-                <img src="images/pintrest.png" alt="pintrest logo"/>
-                <img src="images/google-drive.png" alt="google drive logo"/>
+            <div class="case__swot">
+                <img class="case__logo" src="images/dropbox.png" alt="dropbox logo"/>
+                <img class="case__logo" src="images/pintrest.png" alt="pintrest logo"/>
+                <img class="case__logo" src="images/google-drive.png" alt="google drive logo"/>
+            </div>
             </article>
 
             <article class="personas">
-                <h5 class="subhead">User Personas</h5>
-                <p>
+                <h5 class="paragraph__headline">User Personas</h5>
+                <p class='paragraph__text'>
                     To get an idea of the needs of different users, I developed some user personas. Julie the teacher, needs an easy way to share files with her coworkers and students.
                     Roger needs a collaborative sharing experience for his freelance business. Forgetful Randy is a busy student who
                     doesn't have lots of time to learn a new piece of software and wishes cloud storage wasn't so complicated.
                 </p>
-                <img src="images/persona1.jpg" alt="User Persona"/>
-                <img src="images/persona2.jpg" alt="User Persona"/>
-                <img src="images/persona3.jpg" alt="User Persona"/>
+                <div class="persona__images">
+                <img class="persona" src="images/persona1.jpg" alt="User Persona"/>
+                </div>
+                <section class="persona__one">
+                <h5 class="main persona__headline"> Roger, 33, Web Developer</h5>
+                <p class='persona__quote'>“I need my cloud storage app to be as versatile as my job demands”</p>
+                <p class='paragraph__text'>Roger is a freelance web developer who spends most of his time sharing work with clients via Dropbox.
+                Roger loves the idea of keeping all his files in one place, but sharing is another big priority for Roger.
+                Roger wishes dropbox would show him who he has shared a file with and who has accessed it for easy client
+                communication and since he relies on this service for his clients, the easiest sign up experience possible
+                is essential for good business.</p>
+                <ul class="persona__headline">Goals</ul>
+                <li class="paragraph__text user">Sign up should be quick and easy</li>
+                    <li class="paragraph__text user">Every kind of file should be stored in one place</li>
+                    <li class="paragraph__text user">Enhanced sharing features for client communication </li>
+                    <ul class="persona__headline">Frustrations</ul>
+                    <li class="paragraph__text user">Using different cloud storage services is ineffecient</li>
+                    <li class="paragraph__text user">an app needs to be reliable and professional or it is hurting his reputation</li>
+</section>
+            <div class="persona__images">
+                <img class="persona" src="images/persona2.jpg" alt="User Persona"/>
+            </div>
+                <h5 class= "main persona__headline"> Randy, 18, Student</h5>
+                <p class="persona__quote">“I’m so busy I need an app that will save me time looking for work”</p>
+                <p class="paragraph__text">Randy is a busy college student who juggles full time school and a part time
+                    job, but as a forgetful teen he sometimes forgets the content he creates and needs to find
+                    it quickly as he’s always in a hurry.  Sometimes he uploads files from his phone but it
+                    takes a long time and he doesn’t always know if it uploaded or not.He hopes cloud storage
+                    can help him stay organized
+                </p>
+                <ul class="persona__headline">Goals</ul>
+                <li class="paragraph__text user">Cloud storage should be intuitive and easy to use</li>
+                <li class="paragraph__text user"> Quick upload speeds and clear notification of progress</li>
+                <li class="paragraph__text user">Compatible with a wide variety of applications</li>
+                <ul class="persona__headline">Frustrations</ul>
+                <li class="paragraph__text user">keeping lots of content organized can be a challenge</li>
+                <li class="paragraph__text user">File upload speeds are too slow</li>
+
+
+
+            <div class="persona__images">
+                <img class="persona" src="images/persona3.jpg" alt="User Persona"/>
+            </div>
+                <h5 class="main persona__headline"> Julie, 23, Teacher </h5>
+                <p class="persona__quote">“I’m always on the hunt for ideas that
+                    will inspire my students in new and engaging ways!”
+                </p>
+                <p class="paragraph__text">
+                Julie is a first year teacher who uses Pinterest as a way to get a lot of
+                new ideas but she mainly uses Google Drive with her students and other teachers.
+                Julie is frequently uploading pictures and creating documents on her tablet and school
+                 computers and needs an app that is going to be reliable no matter the setting.
+                 Julie also needs to collaborate with other teachers and students via sharing and needs
+                 lots of easy to manage sharing settings.
+             </p>
+             <ul class="persona__headline">Goals</ul>
+             <li class="paragraph__text user">Lots of sharing options</li>
+             <li class="paragraph__text user"> Needs to be able to create her own content and manage already created content</li>
+             <li class="paragraph__text user"> Access content from a variety of devices</li>
+             <ul class="persona__headline">Frustrations</ul>
+             <li class="paragraph__text user">lacks access to a central place to access all her content</li>
+             <li class="paragraph__text user">lacks access to a central place to access all her content</li>
+             <li class="paragraph__text user">Managing all her files makes it easy to get disorganized</li>
+
             </article>
             <article class="stories">
-                <h5 class="subhead">User Stories</h5>
-                <p>
+                <h5 class="paragraph__headline">User Stories</h5>
+                <p class="paragraph__text">
                     Based on the results from the survey and using my user personas as a base, I went ahead and created
                     some user stories to help prioritize features and define the scope of the project.
                 </p>
-                <img src="images/stories.png" alt="user stories"/>
+                <div class="stories__mockup">
+                <img class="signup_mockup" src="images/stories.png" alt="user stories"/>
+            </div>
             </article>
-            <article class="flows">
-                <h5 class="subhead">User Flows</h5>
-                <p>
+                <h5 class="paragraph__headline">User Flows</h5>
+                <p class="paragraph__text">
                     To keep the user experience as smooth as possible, user flows were made.
                     These user flows focused on smooth sign up, sharing and uploading.
                     These flows became the backbone for my prototypes moving forward.
                 </p>
-                <img src="images/flow.png" alt="user flows"/>
-                <button type="button">View More flows</button>
-            </article>
-            </section>
+                <section class="flows_parent">
+                <img class="flows__image" src="images/flow.png" alt="user flows"/>
+                <img class="flows__image" src="images/flow2.png" alt="user flows"/>
 
+            </section>
         <section class="ia">
-                <h2 class="heading">Information Architecture</h2>
-                <h5 class="subhead">Wireframes and Testing</h5>
-                <p>
+                <h2 class="heading">INFORMATION ARCHITECTURE</h2>
+                <hr/>
+                <h5 class="paragraph__headline">Wireframes and Testing</h5>
+                <p class="paragraph__text">
                     I created Low-fidelity wireframes using Invision and tested them with a
                      usability test script for 3 different users.  I wanted my tests to feature
                      ease of onboarding, uploading and moving content. While users had an easy
@@ -143,14 +246,18 @@
                      moving content.  As I moved towards future iterations, I added some
                      iconography for the move feature.
                  </p>
-                 <img src="images/wireframe.png" alt="wireframe"/>
-                 <button type="button">View More wireframes</button>
-        </section>
+             </section>
+                 <section class="wireframes">
+                 <img class="signup_mockup" src="images/wireframe1.png" alt="wireframe"/>
+                 <img class="signup_mockup" src="images/wireframe2.png" alt="wireframe"/>
+
+             </section>
         <section class="visual">
                  <article class="logo">
-                     <h2 class="heading">Visual Design</h2>
-                     <h5 class="subhead">Logo and Branding</h5>
-                     <p>
+                     <h2 class="heading">VISUAL DESIGN</h2>
+                     <hr/>
+                     <h5 class="paragraph__headline">Logo and Branding</h5>
+                     <p class="paragraph__text">
                      Before I went on to higher fidelity prototypes, it was time to get a feel
                      for the brand’s vision and style. I knew the brand mission centered around
                      bringing together people and content.   After lots of brainstorming,
@@ -159,32 +266,48 @@
                      that is at the core of Gather’s brand.  Open sans as a supporting text was
                      friendly, airy and easy to read.
                     </p>
-                    <img src="images/gatherlogo.png" alt="Gather logo"/>
-                    <h5 class="branding">Color</h5>
-                    <h5 class="branding">Typography</h5>
-                    <img src="images/gatherstyleguide1.jpg" alt="Gather color palette"/>
-                    <img src="images/gatherstyleguide2.jpg" alt="Gather typography"/>
-             <h5 class="subhead">Logo and Branding</h5>
-             <p>
+                    <section class="branding_images">
+                        <h5 class="label">Logo</h5>
+
+                    <img class="gather__logo" src="images/gatherlogo.png" alt="Gather logo"/>
+                    <h5 class="label">Typography</h5>
+                    <img class='signup_mockup' src="images/gatherstyleguide1.jpg" alt="Gather color palette"/>
+                    <h5 class="label">Color</h5>
+                    <img class="signup_mockup" src="images/gatherstyleguide2.jpg" alt="Gather typography"/>
+                </section>
+             <h5 class="paragraph__headline">Preference Tests</h5>
+             <p class="paragraph__text">
                  Still not sure of a few aspects of my design, I got the help
                  of the public to help me with some final preference tests.
                  I tested a folder design, features page and nav bar design on
                  Usability Hub, with 32 responses here are the results:
              </p>
-             <img src="images/preftest1.jpg" alt="Folder Preference Test"/>
-             <p class="preftest">14%</p>
-             <p class="preftest">14%</p>
-             <p class="prefwinner">71%</p>
-             <img src="images/preftest2.jpg" alt="Preference Test"/>
+             <section class="preftest">
+            <img class="pref__image" src="images/dash2.png" alt="Folder Preference Test"/>
+             <img class="pref__image" src="images/dash3.png" alt="Folder Preference Test"/>
+             <img class="pref__image" src="images/dash1.png" alt="Folder Preference Test"/>
+         </section>
+         <section class="preftest">
+             <p class="preftest__one">14%</p>
+             <p class="preftest__one">14%</p>
+             <p class="preftest__one">71%</p>
+         </section>
+         <section class="preftest_two">
+             <img class="signup_mockup" src="images/preftest2.jpg" alt="Preference Test"/>
              <p class="preftest">25%</p>
-             <p class="prefwinner">75%</p>
-             <img src="images/preftest3.jpg" alt="Preference Test"/>
-             <p class="preftest">25%</p>
-             <p class="prefwinner">75%</p>
+             <img class="signup_mockup" src="images/preftesttwo.jpg" alt="Preference Test"/>
+             <p class="pretest">75%</p>
+         </section>
+         <section="preftest__parent">
+            <img class="preftest_three" src="images/frame.png" alt="Preference Test"/>
+            <p class="preftest__three__text">25%</p>
+             <img class="preftest_three" src="images/frame3.png" alt="Preference Test"/>
+             <p class="preftest__three__text">75%</p>
+         </section>
          </article>
          <article class="hf">
-             <h5 class="subhead">High Fidelity Prototypes and Testing</h5>
-             <p>
+             <h5 class="paragraph__headline">High Fidelity Prototypes and Testing</h5>
+             <p class="paragraph__text">
                  Our high fidelity prototypes went through many design iterations based on user
                  feedback.  During our first round of testing  users felt the iconography was
                  hard to read, but when we made it bigger the design looked cluttered.  For our
@@ -192,52 +315,72 @@
                  design iterations later, users had a smooth experience uploading and organizing
                  their content on the app.
              </p>
+             </section>
 
-             <img src="images/hfhome.png" alt="High Fidelity Prototype"/>
-             <img src="images/signup.png" alt="High Fidelity Prototype"/>
-            <img src="images/hfdash.png" alt="High Fidelity Prototype"/>
-            <img src="images/hfupload.png" alt="High Fidelity Prototype"/>
         </article>
+        <section class="design_mockups">
+        <h5 class="paragraph__headline">Sign Up Page</h5>
 
+        <p class="paragraph__text">
+            Sign up was easy to execute and many users were excited about the
+            opportunity to sign up via faceboook, something most testers expressed
+            that was their preferred sign up.  On the other hand, users expressed that the main
+            image on the sign up page didn’t connect with the brand message.  I also received feedback
+            that for sign up forms, putting the sign in prompts on top of the input fields rather than
+            inside was an even easier user experience.  After making those changes users were delighted
+            with a seamless and easy sign up process that left the excited to try the new app.</p>
+           <section class="signup">
+           <p class="label"> Before </p>
+           <img class= "signup_mockup" src="images/signupbefore.png" alt="sign up before"/>
+           <p class="label"> After </p>
+           <img class= "signup_mockup" src="images/signup.png" alt="sign up after"/>
+       </section>
+
+           <h5 class="paragraph__headline">User Dashboard</h5>
+         <p class="paragraph__text">
+           Users thought the design was inviting but wanted more room for content, so Instead of
+           the large buttons at the top I added a smaller button on the side of the page for users
+            to add and upload new content from there, furthermore I shrunk the nav heading and logo
+            while also expanding the search bar.  User feedback thought the icons made moving and
+            sharing files easy, but design wise they said it felt tight so I condensed the icons
+            into a small drop down menu so it was still easy to navigate but maintained a clean
+            and easy to use interface </p>
+            <section class="signup">
+            <p class="label"> Before </p>
+           <img class= "signup_mockup" src="images/dashhome.png" alt="High Fidelity Prototype"/>
+           <p class="label"> After </p>
+           <img class= "signup_mockup" src="images/hfdash.png" alt="High Fidelity Prototype"/>
+
+       </section>
         <article class="conclusion">
-            <h5 class="subhead">Future Improvements</h5>
-            <p>
-                Cloud storage has gone in a lot of exciting directions lately, with new features
-                 added daily. Given the limited scope of the project, there were a lot of
-                 features that would benefit further research and exploration, especially
-                 around content creation and sharing.  Given further time I would love further
-                 flesh out these concepts and see what features would be beneficial in the future.
-            </p>
-            <h5 class="subhead">Conclusion</h5>
-            <p>
+            <h5 class="paragraph__headline">Conclusion</h5>
+            <p class="paragraph__text">
                 Working through Gather helped me gain confidence in the iterative process of design.  Creating
                 an app that centered around user content was challenging. After completing many rounds of user
                 feedback and design iterations, I was able to make a cloud storage app with a smooth user
                 experience.
             </p>
-            <form>
-            <input type="button" value="View Invision Prototype" onclick="window.location.href='https://invis.io/2UKGVXTARZH'" />
-            </form>
+            <div class="c">
+            <a class="conclusion__button" href="https://invis.io/2UKGVXTARZH">View the Invision Prototype</a>
+            <div>
         </article>
 
     </section>
-
-
-
-
-
-
-
-
+</section>
 <footer>
-    <h2>Let's Connect!</h2>
-    <p>Like my designs and want to work together?</p>
-    <form> <input type="button" value="Contact Me!" onclick="window.location.href='/contact.html'" /></form>
-    <p>2018 Designed and Developed by Jackie Antreasian</p>
-    <i class="far fa-envelope"></i>
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-github-square"></i>
+    <h2 class="footer__headline">Let's Connect!</h2>
+    <p class="footer__subheadline">Like my designs and want to work together?</p>
+    <div class="footer__button">
+    <a class="cta__button footer" href="/contact.html">Contact Me!</a>
+    </div>
+    <article class="footer__display">
+    <i class="footer__icon far fa-envelope"></i>
+    <i class="footer__icon fab fa-linkedin"></i>
+    <i class="footer__icon fab fa-github-square"></i>
+</article>
+    <p class="copyright">&copy; 2018 Designed and Developed by Jackie Antreasian</p>
 
 </footer>
 </body>
+
 </html>
