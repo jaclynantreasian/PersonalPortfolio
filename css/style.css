@@ -34,7 +34,7 @@ body{
     color:  #DBA327;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-bottom: 25px;
     letter-spacing: .05em;
 }
@@ -58,6 +58,7 @@ margin: 0 auto;
     font-family: 'Montserrat' , sans-serif;
     line-height: 125%;
     padding-bottom: 25px;
+    text-align: center;
 }
 
 .case__swot{
@@ -76,7 +77,8 @@ margin: 0 auto;
     border-radius: 5px;
     display: block;
     width: 220px;
-    color: #ffffff;
+    color: #D1DAE3
+    line-height: 30px;
 
 }
 
@@ -168,7 +170,7 @@ footer{
 
 .footer__headline{
     padding-top: 50px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #DBA327;
     font-size: 36px;
     text-align: center;
@@ -245,7 +247,7 @@ footer{
     font-size: 24px;
     color: #251F47;
     padding: 50px 25px 5px 25px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     letter-spacing: .05em;
 }
 
@@ -312,7 +314,7 @@ hr {
     font-weight: bold;
     font-size: 24px;
     letter-spacing:.05em;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-right: 25px;
 }
 
@@ -325,7 +327,7 @@ hr {
 }
 
 .intro{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 0 25px;
     font-weight: black;
 }
@@ -334,7 +336,7 @@ hr {
     text-align: center;
     padding: 12px 0;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: .5em;
     letter-spacing: .05em;
 
@@ -342,7 +344,7 @@ hr {
 
 .intro__headline, .intro__subheadline, .paragraph__headline, .paragraph__subheadline{
     font-weight: 900;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: black;
     color: #251F47;
 }
@@ -395,7 +397,7 @@ hr {
 }
 
 .orange_header{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #DBA20E;
 }
 
@@ -413,7 +415,7 @@ hr {
     padding-top: 50px;
     font-size: 35px;
     font-weight: 900;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: black;
     text-align: center;
 }
@@ -449,7 +451,7 @@ hr {
     font-size: 24px;
     color:  #251F47;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -462,7 +464,7 @@ hr {
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #3A27A5;
 
 }
@@ -532,7 +534,7 @@ hr {
 }
 
 .project_page_headline{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 48px;
     font-weight: bold;
     padding: 25px;
