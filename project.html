@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaclyn Antreasian Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
     <script type="text/javascript" src="js/portfolio.js"></script>
     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
@@ -21,52 +23,60 @@
         <nav class="header__nav hidden">
             <a href="./project.html"> <i class="fas fa-pencil-alt"></i>Work</a>
             <a href="./about.html"><i class="far fa-user"></i>About</a>
-            <a href="./resume.html"><i class="far fa-file-alt"></i>Resume</a>
             <a href="./contact.html"><i class="far fa-handshake"></i>Contact</a>
         </nav>
     </header>
         <section class="container">
         <article class="gatherIntro">
             <h1 class="project_title"> Gather</h1>
-            <h5 class="project_page_sub">An intuitive, accessible and inclusive solution to cloud storage</h5>
+            <h5 class="project__page__sub">An intuitive, accessible and inclusive solution to cloud storage</h5>
             <a class="cta__button" href="https://invis.io/2UKGVXTARZH">View the Invision Prototype</a>
             <img class="featured__image" src="images/mockup2.png" alt="desktop and phone mockup for Gather"/>
         </article>
 
         <section class="rl">
-            <article class= "roles">
-                <i class="fas fa-pencil-ruler"></i>
-                <h5 class="paragraph__headline">Roles</h5>
-            </article>
-            <section class="intro_text">
-                        <p class="intro_paragraph">Research</p>
-                        <p class="intro_paragraph">Branding</p>
-                        <p class="intro_paragraph">Visual Design</p>
-                        <p class="intro_paragraph">User Testing</p>
-                        <p class="intro_paragraph">Identity</p>
-            </section>
-            <article class="deliverables">
-                <i class="fas fa-tv"></i>
-                <h5 class="paragraph__headline">Deliverables</h5>
-            </article>
+
+        <section class="tools__container">
+            <div class="tool__container">
+                <article class= "tools">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h5 class="white__header">Roles</h5>
+                </article>
                 <section class="intro_text">
-                    <p class="intro_paragraph">Low-Fidelity Wireframes</p>
+                    <p class="intro_paragraph">Research</p>
+                    <p class="intro_paragraph">Branding</p>
+                    <p class="intro_paragraph">Visual Design</p>
+                    <p class="intro_paragraph">User Testing</p>
+                    <p class="intro_paragraph">Identity</p>
+                </section>
+            </div>
+            <div class="tool__container">
+                <article class="tools">
+                    <i class="fas fa-tv"></i>
+                    <h5 class="white__header">Deliverables</h5>
+                </article>
+                <section class="intro_text">
+                    <p class="intro_paragraph">Low-Fidelity project__images-row</p>
                     <p class="intro_paragraph">User Personas</p>
                     <p class="intro_paragraph">Sitemap and User flows</p>
                     <p class="intro_paragraph">Logo design</p>
                     <p class="intro_paragraph">Style Guide</p>
                     <p class="intro_paragraph">Responsive App Design</p>
                 </section>
-            <article class="tools">
-                <i class="fas fa-wrench"></i>
-                <h5 class="paragraph__headline">Tools</h5>
-            </article>
-            <section class="intro_text">
+            </div>
+            <div class="tool__container">
+                <article class="tools">
+                    <i class="fas fa-wrench"></i>
+                    <h5 class="white__header">Tools</h5>
+                </article>
+                <section class="intro_text">
                     <p class="intro_paragraph">Figma</p>
                     <p class="intro_paragraph">Usability Hub</p>
                     <p class="intro_paragraph">Illustrator</p>
                     <p class="intro_paragraph">Invision</p>
                     <p class="last intro_paragraph">Draw.io</p>
+                </section>
+            </div>
         </section>
         <section class="probsolution">
             <article class="problem">
@@ -118,7 +128,7 @@
                         <div class="survey__graph-circle" id="three-circle">
                         </div>
                         <p class="survey__graph-caption last">
-                            find it hard to stay organized with cloud storage
+                            find it hard to stay organized using cloud storage
                         </p>
                     </div>
                 </div>
@@ -141,17 +151,17 @@
             </div>
             </article>
 
-            <article class="personas">
                 <h5 class="paragraph__headline">User Personas</h5>
                 <p class='paragraph__text'>
                     To get an idea of the needs of different users, I developed some user personas. Julie the teacher, needs an easy way to share files with her coworkers and students.
                     Roger needs a collaborative sharing experience for his freelance business. Forgetful Randy is a busy student who
                     doesn't have lots of time to learn a new piece of software and wishes cloud storage wasn't so complicated.
                 </p>
+                <article class="personas">
+            <section class="persona__one">
                 <div class="persona__images">
                 <img class="persona" src="images/persona1.jpg" alt="User Persona"/>
                 </div>
-                <section class="persona__one">
                 <h5 class="main persona__headline"> Roger, 33, Web Developer</h5>
                 <p class='persona__quote'>“I need my cloud storage app to be as versatile as my job demands”</p>
                 <p class='paragraph__text'>Roger is a freelance web developer who spends most of his time sharing work with clients via Dropbox.
@@ -166,7 +176,8 @@
                     <ul class="persona__headline">Frustrations</ul>
                     <li class="paragraph__text user">Using different cloud storage services is ineffecient</li>
                     <li class="paragraph__text user">an app needs to be reliable and professional or it is hurting his reputation</li>
-</section>
+            </section>
+            <section class="persona__one">
             <div class="persona__images">
                 <img class="persona" src="images/persona2.jpg" alt="User Persona"/>
             </div>
@@ -184,10 +195,10 @@
                 <li class="paragraph__text user">Compatible with a wide variety of applications</li>
                 <ul class="persona__headline">Frustrations</ul>
                 <li class="paragraph__text user">keeping lots of content organized can be a challenge</li>
-                <li class="paragraph__text user last">File upload speeds are too slow</li>
+                <li class="paragraph__text user">File upload speeds are too slow</li>
+            </section>
 
-
-
+            <section class="persona__one">
             <div class="persona__images">
                 <img class="persona" src="images/persona3.jpg" alt="User Persona"/>
             </div>
@@ -213,6 +224,7 @@
              <li class="paragraph__text user">Managing all her files makes it easy to get disorganized</li>
 
             </article>
+        </section>
             <article class="stories">
                 <h5 class="paragraph__headline">User Stories</h5>
                 <p class="paragraph__text">
@@ -220,7 +232,7 @@
                     some user stories to help prioritize features and define the scope of the project.
                 </p>
                 <div class="stories__mockup">
-                <img class="signup_mockup" src="images/stories.png" alt="user stories"/>
+                <img class="project__row-image" src="images/stories.png" alt="user stories"/>
             </div>
             </article>
                 <h5 class="paragraph__headline">User Flows</h5>
@@ -229,17 +241,17 @@
                     These user flows focused on smooth sign up, sharing and uploading.
                     These flows became the backbone for my prototypes moving forward.
                 </p>
-                <section class="flows_parent">
-                <img class="flows__image" src="images/flow.png" alt="user flows"/>
-                <img class="flows__image" src="images/flow2.png" alt="user flows"/>
+                <section class="project__images-row">
+                <img class="project__row-image" src="images/flow.png" alt="user flows"/>
+                <img class="project__row-image" src="images/flow2.png" alt="user flows"/>
 
             </section>
         <section class="ia">
                 <h2 class="heading">INFORMATION ARCHITECTURE</h2>
                 <hr/>
-                <h5 class="paragraph__headline">Wireframes and Testing</h5>
+                <h5 class="paragraph__headline">project__images-row and Testing</h5>
                 <p class="paragraph__text">
-                    I created Low-fidelity wireframes using Invision and tested them with a
+                    I created Low-fidelity project__images-row using Invision and tested them with a
                      usability test script for 3 different users.  I wanted my tests to feature
                      ease of onboarding, uploading and moving content. While users had an easy
                      experience signing up and uploading, some users showed hesitation while
@@ -247,10 +259,9 @@
                      iconography for the move feature.
                  </p>
              </section>
-                 <section class="wireframes">
-                 <img class="signup_mockup" src="images/wireframe1.png" alt="wireframe"/>
-                 <img class="signup_mockup" src="images/wireframe2.png" alt="wireframe"/>
-
+                 <section class="project__images-row">
+                 <img class="project__row-image" src="images/wireframe1.png" alt="wireframe"/>
+                 <img class="project__row-image" src="images/wireframe2.png" alt="wireframe"/>
              </section>
         <section class="visual">
                  <article class="logo">
@@ -267,13 +278,14 @@
                      friendly, airy and easy to read.
                     </p>
                     <section class="branding_images">
-                        <h5 class="label">Logo</h5>
-
+                    <h5 class="label">Logo</h5>
                     <img class="gather__logo" src="images/gatherlogo.png" alt="Gather logo"/>
-                    <h5 class="label">Typography</h5>
-                    <img class='signup_mockup' src="images/gatherstyleguide1.jpg" alt="Gather color palette"/>
-                    <h5 class="label">Color</h5>
-                    <img class="signup_mockup" src="images/gatherstyleguide2.jpg" alt="Gather typography"/>
+                    <div class="project__images-row">
+                        <h5 class="label">Type</h5>
+                        <img class='project__row-image' src="images/gatherstyleguide1.jpg" alt="Gather color palette"/>
+                        <h5 class="label">Color</h5>
+                        <img class="project__row-image" src="images/gatherstyleguide2.jpg" alt="Gather typography"/>
+                    </div>
                 </section>
              <h5 class="paragraph__headline">Preference Tests</h5>
              <p class="paragraph__text">
@@ -292,17 +304,21 @@
              <p class="preftest__one">14%</p>
              <p class="preftest__one">71%</p>
          </section>
-         <section class="preftest_two">
-             <img class="signup_mockup" src="images/preftest2.jpg" alt="Preference Test"/>
+         <section class="project__images-row white">
+             <img class="project__row-image" src="images/preftest2.jpg" alt="Preference Test"/>
              <p class="preftest">25%</p>
-             <img class="signup_mockup" src="images/preftesttwo.jpg" alt="Preference Test"/>
+             <img class="project__row-image" src="images/preftesttwo.jpg" alt="Preference Test"/>
              <p class="pretest">75%</p>
          </section>
-         <section="preftest__parent">
-            <img class="preftest_three" src="images/frame.png" alt="Preference Test"/>
+         <section="preftest">
+         <articl class="pref_float">
+            <img class="full" src="images/frame.png" alt="Preference Test"/>
             <p class="preftest__three__text">25%</p>
-             <img class="preftest_three" src="images/frame3.png" alt="Preference Test"/>
+        </article>
+        <article class="pref_float">
+             <img class="full" src="images/frame3.png" alt="Preference Test"/>
              <p class="preftest__three__text">75%</p>
+         </article>
          </section>
          </article>
          <article class="hf">
@@ -329,12 +345,12 @@
             that for sign up forms, putting the sign in prompts on top of the input fields rather than
             inside was an even easier user experience.  After making those changes users were delighted
             with a seamless and easy sign up process that left the excited to try the new app.</p>
-           <section class="signup">
-           <p class="label"> Before </p>
-           <img class= "signup_mockup" src="images/signupbefore.png" alt="sign up before"/>
-           <p class="label"> After </p>
-           <img class= "signup_mockup" src="images/signup.png" alt="sign up after"/>
-       </section>
+           <section class="project__images-row">
+               <p class="label"> Before </p>
+               <img class= "project__row-image" src="images/signupbefore.png" alt="sign up before"/>
+               <p class="label"> After </p>
+               <img class= "project__row-image" src="images/signup.png" alt="sign up after"/>
+           </section>
 
            <h5 class="paragraph__headline">User Dashboard</h5>
          <p class="paragraph__text">
@@ -347,9 +363,9 @@
             and easy to use interface </p>
             <section class="signup">
             <p class="label"> Before </p>
-           <img class= "signup_mockup" src="images/dashhome.png" alt="High Fidelity Prototype"/>
+           <img class= "project__row-image" src="images/dashhome.png" alt="High Fidelity Prototype"/>
            <p class="label"> After </p>
-           <img class= "signup_mockup" src="images/hfdash.png" alt="High Fidelity Prototype"/>
+           <img class= "project__row-image" src="images/hfdash.png" alt="High Fidelity Prototype"/>
 
        </section>
         <article class="conclusion">

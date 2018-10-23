@@ -4,7 +4,7 @@
                 foregroundBorderWidth: 5,
                 backgroundBorderWidth: 2,
                 percent: 79,
-                foregroundColor:'#3A27A5',
+                foregroundColor:'#123684',
                 fontColor: '#251F47'
 
            });
@@ -13,7 +13,7 @@
                 foregroundBorderWidth: 5,
                 backgroundBorderWidth: 2,
                 percent: 39,
-                foregroundColor:'#3A27A5',
+                foregroundColor:'#123684',
                 fontColor: '#251F47'
 
 
@@ -23,7 +23,7 @@
                 foregroundBorderWidth: 5,
                 backgroundBorderWidth: 2,
                 percent: 27,
-                foregroundColor:'#3A27A5',
+                foregroundColor:'#123684',
                 fontColor: '#251F47'
 
             });

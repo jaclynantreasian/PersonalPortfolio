@@ -1,0 +1,76 @@
+@media only screen and (min-width: 992px) {
+
+    .roles, .tool__container, .deliverables{
+        justify-content: flex-start;
+         flex-flow: row wrap;
+         width: 33.3333333%;
+
+
+    }
+
+    .tools__container {
+        display: flex;
+    }
+    .deliverables{
+        align-items: center;
+    }
+    /** circles in user survey 3 sections**/
+    .personas{
+        display: flex;
+    }
+
+    .persona_one{
+        display: flex;
+        justify-content: flex-start;
+         flex-flow: row wrap;
+         width: 33.3333333%;
+    }
+
+    .survey__graph{
+        justify-content: flex-start;
+         flex-flow: row wrap;
+         width: 33.3333333%;
+         align-items: baseline;
+    }
+
+    .survey__circles{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+
+    .survey__graph-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .survey__graph-caption{
+        text-align: center;
+    }
+
+    .survey__graph-circle{
+        width: 50%;
+    }
+
+    .persona__headline{
+        align-items: baseline;
+    }
+
+    .signup{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 25px;
+    }
+    .project__row-image{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .project__images-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
