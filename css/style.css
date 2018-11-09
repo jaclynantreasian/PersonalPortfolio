@@ -2,10 +2,21 @@ body{
     box-sizing: border-box;
 }
 
+
+
 .container{
     max-width: 1600px;
 }
+.about__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0 2em 2em 2em;
+    line-height: 2em;
+}
 
+.about__text:last-of-type{
+    padding-bottom: 4em;
+}
 .art__image{
     display: flex;
     height: 200px;
@@ -17,7 +28,7 @@ body{
 .bio__headline{
     font-size: 36px;
     letter-spacing: .05em;
-    padding: 25px;
+    padding: 1em;
     font-size: 36px;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
@@ -26,19 +37,21 @@ body{
 }
 
 .bio__image{
-    width: 60%;
+    width: 80%;
     padding: 100px 25px 25px 25px;
 
 }
 
-.biog{
-    width: 40%;
+
+.last{
+    padding-bottom: 50px;
 }
+
 
 .branding_images{
     display: flex;
     align-items: center;
-    background-color: #D1DAE3;
+    background-color: #ffffff;
     flex-direction: column;
     padding-top: 25px;
 }
@@ -47,10 +60,16 @@ body{
     padding: 50px 0;
     background-color: #123684;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
+
+.cases__images{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 .cases__headline{
     color:  #DBA327;
     font-size: 36px;
@@ -58,6 +77,7 @@ body{
     font-family: 'Lato', sans-serif;
     padding-bottom: 25px;
     letter-spacing: .05em;
+    text-align: center;
 }
 
 .case__logo{
@@ -68,9 +88,7 @@ body{
 .cases__mockup{
 padding-bottom: 25px;
 width: 50%;
-display: flex;
-align-self:flex-start;
-margin: 0 auto;
+align-self: center;
 }
 
 .cases__subheader{
@@ -100,6 +118,7 @@ margin: 0 auto;
     width: 220px;
     color: #F1EFFF;
     line-height: 30px;
+    margin: 0 auto;
 
 }
 
@@ -164,9 +183,8 @@ margin: 0 auto;
 }
 
 .featured__image{
-    width: 40%;
+    width: 60%;
     padding: 25px 25px 50px 25px;
-    margin: 0 auto;
 }
 
 .flows_parent{
@@ -355,9 +373,11 @@ hr {
     color: #251F47;
 }
 
+
+
 .intro__headline{
-    margin-left: 100px;
-    font-size: 50px;
+    margin-left: 25px;
+    font-size: 40px;
     line-height: 55px;
     letter-spacing: .07em;
     padding: 100px 0 50px 0;
@@ -365,15 +385,14 @@ hr {
     text-align: left;
 }
 
-.intro__subheadline, .paragraph__headline, .white__header, .orange_header{
+.intro__subheadline, .paragraph__headline, .white__header, .orange__header{
     font-size: 24px;
     letter-spacing: .05em;
     line-height: 1.25em;
 }
 
 .intro__subheadline{
-    margin-left: 100px;
-    width: 55%;
+    margin-left: 25px;
     text-align: left;
     font-family: 'Lato', sans-serif;
     color: #251F47;
@@ -384,7 +403,7 @@ hr {
 }
 .intro__arrow-text{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 55px;
     font-family: 'Lato', sans-serif;
     color: #251F47;
 }
@@ -395,7 +414,7 @@ hr {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    color: #3A27A5;
+    color: #ffffff;
     padding: 25px 0 13px 25px;
 }
 
@@ -415,15 +434,17 @@ hr {
     color: #DBA327;
 }
 
-.orange_header{
+.orange__header{
     font-family: 'Lato', sans-serif;
     color: #DBA20E;
+    text-align: center;
 }
 
 .paragraph__headline{
     letter-spacing: .05em;
     color: #123684;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
+    margin-left: 11%;
 }
 
 .white__header{
@@ -457,11 +478,15 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 3em;
 
 }
 
 .paragraph_white{
     color: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+
 }
 
 .persona__images{
@@ -481,7 +506,7 @@ hr {
 }
 
 .persona__headline{
-    padding: 25px;
+    padding: 1em 2em;
     font-size: 24px;
     color:  #251F47;
     font-weight: bold;
@@ -500,12 +525,18 @@ hr {
     justify-content: space-around;
 }
 
+.project__featured{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main.persona__headline{
     text-align: center;
 }
 
 .persona__quote{
-    padding: 25px;
+    padding: 1em 3em 0;
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
@@ -517,8 +548,10 @@ hr {
 .paragraph__text{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding: 0px 25px 25px;
+    padding: 2em;
     line-height: 1.5em;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .paragraph__text.user{
@@ -527,7 +560,7 @@ hr {
 }
 
 .paragraph__text.user:last-of-type{
-    padding: 0 25px;
+    padding: 0 2em;
 }
 
 .paragraph_white{
@@ -540,6 +573,7 @@ hr {
 
 .paragraph__text.pw{
     width: 65%;
+    padding: 0 25px 25px 25px;
 }
 /**Persona background Color**/
 .persona__one{
@@ -613,6 +647,10 @@ hr {
     text-align: center;
 }
 
+.tools__container{
+    padding-bottom: 50px;
+}
+
 .tools{
     background-color: #251F47;
     text-align: center;
@@ -622,7 +660,9 @@ hr {
 .signup{
   display: flex;
   flex-direction: column;
-  background-color: #D1DAE3;
+  background-color: #778899;
+  margin-top: 25px;
+
 }
 
 .project__row-image{
@@ -664,6 +704,8 @@ hr {
     letter-spacing:.05em;
     font-family: 'Lato', sans-serif;
     align-items: center;
+    line-height: 1.4rem;
+
 }
 
 
@@ -683,7 +725,7 @@ hr {
 }
 
 .project__images-row{
-    background-color: #D1DAE3;
+    background-color: #778899;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -691,4 +733,8 @@ hr {
 
 .white{
     background-color: #ffff;
+}
+.cases__button{
+display: flex;
+justify-content: center;
 }

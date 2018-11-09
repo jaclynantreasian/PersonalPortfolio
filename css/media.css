@@ -1,5 +1,7 @@
 @media only screen and (min-width: 992px) {
-
+    .art__image{
+        margin: 0 1em 0 6em
+    }
     .roles, .tool__container, .deliverables{
         justify-content: flex-start;
          flex-flow: row wrap;
@@ -8,15 +10,63 @@
 
     }
 
+    .cases{
+        flex-direction: row;
+        justify-content: space-around;
+        }
+
+    .cases__text{
+        margin-left: 20%;
+        width: 30%;
+    }
+
+    .cases__subheader{
+        text-align: left;
+    }
+
+
+    .cases__mockup{
+        flex-direction: row;
+    }
+
+    .intro__subheadline{
+        width: 70%;
+    }
     .tools__container {
         display: flex;
     }
     .deliverables{
         align-items: center;
     }
+
+     .orange__header{
+        padding-top: 25px;
+    }
+    .paragraph__subheadline.main{
+        padding-bottom: 2em;
+        padding-left: 3.5em;
+        width: 25%;
+    }
+
+    .project__featured{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragraph__text.pw{
+        width: 40%;
+        padding: 0;
+    }
+
+    .past{
+        flex-direction: row;
+    }
     /** circles in user survey 3 sections**/
     .personas{
         display: flex;
+        width: 80%
+        padding-left: 10%;
     }
 
     .persona_one{
@@ -24,6 +74,20 @@
         justify-content: flex-start;
          flex-flow: row wrap;
          width: 33.3333333%;
+    }
+
+    .problem{
+        width: 50%;
+        float: left;
+        height: 250px;
+        padding: 0;
+    }
+
+    .solution{
+        width: 50%;
+        float: right;
+        height: 250px;
+        padding: 0;
     }
 
     .survey__graph{
@@ -72,5 +136,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin: 25px 0;
     }
 }
