@@ -1,13 +1,18 @@
 @media only screen and (min-width: 992px) {
     .art__image{
-        margin: 0 1em 0 6em
+        margin: 0 1em 0 3em
     }
+
+
+    .intro__headline, .intro__subheadline{
+        margin-left: 20%;
+    }
+
+
     .roles, .tool__container, .deliverables{
         justify-content: flex-start;
          flex-flow: row wrap;
          width: 33.3333333%;
-
-
     }
 
     .cases{
@@ -44,7 +49,6 @@
     }
     .paragraph__subheadline.main{
         padding-bottom: 2em;
-        padding-left: 3.5em;
         width: 25%;
     }
 
@@ -57,6 +61,7 @@
     .paragraph__text.pw{
         width: 40%;
         padding: 0;
+        margin-right: 2em;
     }
 
     .past{
