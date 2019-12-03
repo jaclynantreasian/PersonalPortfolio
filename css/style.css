@@ -17,11 +17,12 @@ body{
 .about__text:last-of-type{
     padding-bottom: 4em;
 }
+
 .art__image{
     display: flex;
     height: 200px;
     width: 200px;
-    padding: 25px;
+    padding: 25px 40px;
     border-radius: 50%;
 }
 
@@ -105,6 +106,10 @@ align-self: center;
     justify-content: space-around;
 }
 
+.cases__text{
+    padding-bottom: 25px;
+}
+
 .cta__button{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -145,7 +150,7 @@ align-self: center;
 }
 
 .conclusion{
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .conclusion__button{
@@ -175,10 +180,10 @@ align-self: center;
     padding-top: 12px;
 }
 
-.fas.fa-pencil-alt, .far.fa-file-alt, .far.fa-handshake, .far.fa-user{
+.fas.fa-pencil-alt, .far.fa-file-alt, .far.fa-handshake, .far.fa-user, .fab.fa-behance-square{
     color: #ffffff;
     font-size: 18px;
-    padding-right: 15px;
+    padding: 15px;
 
 }
 
@@ -311,6 +316,7 @@ footer{
     opacity: .95;
     min-height: 1000px;
     font-size: 18px;
+    width: 15%;
 }
 
 .header__nav a{
@@ -366,7 +372,7 @@ hr {
 
 }
 
-.intro__headline, .paragraph__headline, .paragraph__subheadline{
+.intro__headline, .paragraph__headline, .paragraph__subheadline, .paragraph__logo{
     font-weight: 900;
     font-family: 'Lato', sans-serif;
     font-weight: black;
@@ -445,6 +451,10 @@ hr {
     color: #123684;
     padding: 25px 25px 0 25px;
     margin-left: 11%;
+}
+
+.paragraph__headline.logo{
+    margin: 0;
 }
 
 .white__header{
@@ -542,6 +552,7 @@ hr {
     font-style: italic;
     font-family: 'Lato', sans-serif;
     color: #123684;
+    line-height: 1.25em;
 
 }
 
@@ -557,6 +568,7 @@ hr {
 .paragraph__text.user{
     list-style-type: circle;
     list-style-position: inside;
+    padding: .5em;
 }
 
 .paragraph__text.user:last-of-type{
@@ -566,7 +578,7 @@ hr {
 .paragraph_white{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding: 25px 0;
+    padding: 12.5px 0;
     line-height: 1.5em;
 
 }
@@ -647,6 +659,10 @@ hr {
     text-align: center;
 }
 
+.project_title.paintings{
+    padding-bottom: 50px;
+}
+
 .tools__container{
     padding-bottom: 50px;
 }
@@ -654,7 +670,7 @@ hr {
 .tools{
     background-color: #251F47;
     text-align: center;
-    padding: 12px;
+    padding: 20px;
 }
 
 .signup{
@@ -662,6 +678,7 @@ hr {
   flex-direction: column;
   background-color: #778899;
   margin-top: 25px;
+  padding: 50px 0;
 
 }
 
@@ -724,11 +741,14 @@ hr {
     justify-content: center;
 }
 
+
+
 .project__images-row{
     background-color: #778899;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 50px 0;
 }
 
 .white{

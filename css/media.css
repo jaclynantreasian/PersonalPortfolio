@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 992px) {
     .art__image{
         margin: 0 1em 0 3em
@@ -84,14 +85,14 @@
     .problem{
         width: 50%;
         float: left;
-        height: 250px;
+        height: 275px;
         padding: 0;
     }
 
     .solution{
         width: 50%;
         float: right;
-        height: 250px;
+        height: 275px;
         padding: 0;
     }
 
