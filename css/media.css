@@ -1,7 +1,7 @@
 
 @media only screen and (min-width: 992px) {
     .art__image{
-        margin: 0 1em 0 3em
+        margin: 0 2em 0 13em
     }
 
 
@@ -50,7 +50,7 @@
     }
     .paragraph__subheadline.main{
         padding-bottom: 2em;
-        width: 25%;
+        width: 17%;
     }
 
     .project__featured{
@@ -59,10 +59,14 @@
         align-items: center;
     }
 
+    .paragraph__text{
+        margin: 0;
+    }
+
+    
     .paragraph__text.pw{
         width: 40%;
-        padding: 0;
-        margin-right: 2em;
+        padding: 25px;
     }
 
     .past{

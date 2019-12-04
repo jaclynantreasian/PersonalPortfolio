@@ -22,7 +22,7 @@ body{
     display: flex;
     height: 200px;
     width: 200px;
-    padding: 25px 40px;
+    padding: 25px;
     border-radius: 50%;
 }
 
@@ -78,7 +78,6 @@ body{
     font-family: 'Lato', sans-serif;
     padding-bottom: 25px;
     letter-spacing: .05em;
-    text-align: center;
 }
 
 .case__logo{
@@ -123,7 +122,6 @@ align-self: center;
     width: 220px;
     color: #F1EFFF;
     line-height: 30px;
-    margin: 0 auto;
 
 }
 
@@ -476,7 +474,7 @@ hr {
 .paragraph__main__headline{
     letter-spacing: .05em;
     color: #123684;
-    padding-top: 50px;
+    padding: 70px 0 25px;
     font-size: 35px;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
