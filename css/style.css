@@ -65,6 +65,10 @@ body{
     align-items: center;
 }
 
+.cases2{
+    background-color: #0E2B69;
+}
+
 
 .cases__images{
     display: flex;
@@ -78,6 +82,7 @@ body{
     font-family: 'Lato', sans-serif;
     padding-bottom: 25px;
     letter-spacing: .05em;
+    margin-left: 25px;
 }
 
 .case__logo{
@@ -91,13 +96,20 @@ width: 50%;
 align-self: center;
 }
 
+.cases__mockup2{
+    padding-bottom: 25px;
+    width: 70%;
+    align-self: center;
+}
+
 .cases__subheader{
     font-size: 18px;
     color: #ffffff;
     font-family: 'Montserrat' , sans-serif;
     line-height: 125%;
     padding-bottom: 25px;
-    text-align: center;
+    text-align: left;
+    margin-left: 25px;
 }
 
 .case__swot{
@@ -122,6 +134,8 @@ align-self: center;
     width: 220px;
     color: #F1EFFF;
     line-height: 30px;
+    margin-left: 25px;
+
 
 }
 
@@ -314,7 +328,7 @@ footer{
     opacity: .95;
     min-height: 1000px;
     font-size: 18px;
-    width: 15%;
+    width: 40%;
 }
 
 .header__nav a{
@@ -447,7 +461,7 @@ hr {
 .paragraph__headline{
     letter-spacing: .05em;
     color: #123684;
-    padding: 25px 25px 0 25px;
+    padding: 2em 2em 0 1em;
     margin-left: 11%;
 }
 
@@ -557,9 +571,8 @@ hr {
 .paragraph__text{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding: 2em;
+    padding: 2em 1.5em;
     line-height: 1.5em;
-    width: 75%;
     margin: 0 auto;
 }
 
@@ -570,7 +583,7 @@ hr {
 }
 
 .paragraph__text.user:last-of-type{
-    padding: 0 2em;
+    padding: 0 0 2em 0;
 }
 
 .paragraph_white{
@@ -622,9 +635,7 @@ hr {
     margin: 0 auto;
 }
 
-.preftest__three__text{
-    text-align: center;
-}
+
 
 .problem{
     background-color: #123684;

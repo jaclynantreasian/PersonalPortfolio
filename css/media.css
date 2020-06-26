@@ -34,7 +34,9 @@
     .cases__mockup{
         flex-direction: row;
     }
-
+    .header__nav{
+        width: 15%;
+    }
     .intro__subheadline{
         width: 70%;
     }
@@ -48,6 +50,12 @@
      .orange__header{
         padding-top: 25px;
     }
+
+    .paragraph__headline{
+            padding: 2em 2em 0 1em;
+
+    }
+
     .paragraph__subheadline.main{
         padding-bottom: 2em;
         width: 17%;
@@ -60,12 +68,13 @@
     }
 
     .paragraph__text{
-        margin: 0;
+        margin-left: 11%;
+        width: 75%;
     }
 
-    
+
     .paragraph__text.pw{
-        width: 40%;
+        width: 35%;
         padding: 25px;
     }
 
@@ -84,6 +93,10 @@
         justify-content: flex-start;
          flex-flow: row wrap;
          width: 33.3333333%;
+    }
+
+    .preftest__three__text{
+    text-align: center;
     }
 
     .problem{
