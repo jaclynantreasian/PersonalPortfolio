@@ -20,10 +20,9 @@ body{
 
 .art__image{
     display: flex;
-    height: 200px;
-    width: 200px;
     padding: 25px;
     border-radius: 50%;
+    width: 40%;
 }
 
 .bio__headline{
@@ -174,6 +173,7 @@ align-self: center;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 1em;
 }
 /*font awesome icons*/
 
@@ -392,11 +392,9 @@ hr {
 }
 
 
-
 .intro__headline{
-    margin-left: 25px;
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 3em;
+    line-height: 1.25em;
     letter-spacing: .07em;
     padding: 100px 0 50px 0;
     width: 60%;
