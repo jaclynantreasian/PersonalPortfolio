@@ -20,18 +20,25 @@
 
     .cases{
         flex-direction: row;
-        justify-content: space-around;
+        align-items: center;
+
         }
 
-    
+.cases__img__prt{
+    padding: 0 30px;
+}
 
+    .cases__mockup2{
+        padding-bottom: 0;
+    }
+    
     .cases__text{
-        margin-left: 20%;
+        margin-left: 15%;
         width: 30%;
     }
 
     .cases__text2{
-        margin-right:20%;
+        margin-left: 50px;
         width: 30%;
     }
 
@@ -43,9 +50,20 @@
     .cases__mockup{
         flex-direction: row;
     }
+
+    .header{
+            justify-content: center;
+        }
+
+
     .header__nav{
         width: 15%;
     }
+
+    .header__wrap{
+        width: 1200px;
+    }
+
     .intro__subheadline{
         width: 70%;
     }
@@ -83,8 +101,13 @@
 
 
     .paragraph__text.pw{
+        margin-left: 0;
         width: 35%;
         padding: 25px;
+    }
+
+    .parent2{
+        margin-left: 15%;
     }
 
     .past{

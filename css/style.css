@@ -55,13 +55,14 @@ body{
     flex-direction: column;
     padding-top: 25px;
 }
+
 .cases{
     width: 100%;
     padding: 50px 0;
     background-color: #123684;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
 }
 
 .cases2{
@@ -73,8 +74,14 @@ body{
 .cases__images{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    max-width: 450px;
+
 }
+
+.image__parent{
+    padding: 30px;
+}
+
 
 .cases__headline{
     color:  #DBA327;
@@ -92,14 +99,11 @@ body{
 }
 
 .cases__mockup{
-padding-bottom: 25px;
-width: 50%;
-align-self: center;
+width: 100%;
 }
 
 .cases__mockup2{
-    padding-bottom: 25px;
-    width: 70%;
+    width: 100%;
     align-self: center;
 }
 
@@ -117,10 +121,6 @@ align-self: center;
 .case__swot{
     display: flex;
     justify-content: space-around;
-}
-
-.cases__text{
-    padding-bottom: 25px;
 }
 
 .cta__button{
@@ -285,12 +285,17 @@ footer{
 .header{
     display: flex;
     background-color: #251F47;
-    justify-content: space-between;
     height: 50px;
     margin-bottom: 50px;
     position: fixed;
     width: 100%;
+}
+
+.header__wrap{
+    display: flex;
     z-index: 20;
+    width: 100%;
+    justify-content: space-between;
 
 }
 
@@ -768,4 +773,20 @@ hr {
 .cases__button{
 display: flex;
 justify-content: center;
+}
+
+
+
+/*
+The are mobile changes
+
+Remove the padding from this guy '.cases__mockup'. Dont put padding on images
+it because of their nature it is hard to predict the results
+and you end up with space you might not be accounting for
+
+set width of .cases__mockup to 100%
+
+update the image container class to look like this adds the outside 
+.cases__images {
+    
 }
