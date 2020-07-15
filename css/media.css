@@ -24,16 +24,14 @@
 
         }
 
-.cases__img__prt{
-    padding: 0 30px;
-}
 
     .cases__mockup2{
         padding-bottom: 0;
+        margin-left: 40%;
     }
     
     .cases__text{
-        margin-left: 15%;
+        margin-left: 20%;
         width: 30%;
     }
 
@@ -101,13 +99,8 @@
 
 
     .paragraph__text.pw{
-        margin-left: 0;
         width: 35%;
         padding: 25px;
-    }
-
-    .parent2{
-        margin-left: 15%;
     }
 
     .past{
