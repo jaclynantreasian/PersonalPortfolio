@@ -18,11 +18,14 @@ body{
     padding-bottom: 4em;
 }
 
-.art__image{
-    display: flex;
+.art__wrap{
     padding: 25px;
+}
+
+.art__image{
+    width: 100%;
     border-radius: 50%;
-    width: 40%;
+    max-width: 450px;
 }
 
 .bio__headline{
@@ -137,8 +140,6 @@ width: 100%;
     color: #F1EFFF;
     line-height: 30px;
     margin-left: 25px;
-
-
 }
 
 .conclusion__button{
@@ -155,7 +156,6 @@ width: 100%;
     color: #251F47;
     margin: 0 auto;
     line-height: 30px;
-
 }
 
 .cta__button:hover{
@@ -454,7 +454,6 @@ hr {
 }
 
 
-
 .org__headline{
     color: #DBA327;
 }
@@ -483,14 +482,12 @@ hr {
     font-family: 'Lato', sans-serif;
 }
 .paragraph__subheadline{
+    padding-left: 30px;
     font-size: 30px;
     letter-spacing: .05em;
     color: #123684;
 }
 
-.paragraph__subheadline.main{
-    padding-bottom: 25px;
-}
 
 .paragraph__main__headline{
     letter-spacing: .05em;
@@ -507,6 +504,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%
 }
 
 .paragraph_white{
@@ -599,10 +597,7 @@ hr {
 
 }
 
-.paragraph__text.pw{
-    width: 65%;
-    padding: 0 25px 25px 25px;
-}
+
 /**Persona background Color**/
 .persona__one{
     padding-bottom: 25px;
@@ -784,7 +779,7 @@ and you end up with space you might not be accounting for
 
 set width of .cases__mockup to 100%
 
-update the image container class to look like this adds the outside 
+update the image container class to look like this adds the outside
 .cases__images {
-    
+
 }
