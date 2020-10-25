@@ -73,6 +73,9 @@ body{
     flex-direction: column-reverse;
 }
 
+.cases3{
+    background-color: #160c4a;
+}
 
 .cases__images{
     display: flex;

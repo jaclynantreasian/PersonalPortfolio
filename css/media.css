@@ -14,6 +14,11 @@
         max-width:450px;
     }
 
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+
     .intro__headline, .intro__subheadline{
         margin-left: 20%;
         width: 60%;
@@ -84,8 +89,7 @@
 
     .paragraph__headline{
             padding: 2em 2em 0 1em;
-
-    }
+        }
 
     .project__featured{
         display: flex;
