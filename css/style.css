@@ -1,8 +1,40 @@
+.blue{
+    background-color: #1E2C5F;
+}
+
 body{
     box-sizing: border-box;
 }
 
 
+
+.box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    margin: 25px;
+    font-size: 36px;
+    letter-spacing: .05em;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+.box2{
+    width: 100%;
+    margin: 25px;
+}
+
+.box__container{
+    height: 700px;
+}
+
+.cases_white{
+    color:white;
+}
 
 .container{
     max-width: 1600px;
@@ -80,14 +112,7 @@ body{
 .cases__images{
     display: flex;
     flex-direction: column;
-    max-width: 450px;
-
 }
-
-.image__parent{
-    padding: 30px;
-}
-
 
 .cases__headline{
     color:  #DBA327;
@@ -122,6 +147,7 @@ width: 100%;
     text-align: left;
     margin-left: 25px;
     width: 80%;
+    text-decoration: none;
 }
 
 .case__swot{
@@ -145,6 +171,15 @@ width: 100%;
     margin-left: 25px;
 }
 
+.cta__button:hover{
+    background-color: #ffffff;
+    color: #251F47;
+}
+
+.cyan{
+   background-color: #2D8CBA;
+}
+
 .conclusion__button{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -161,10 +196,7 @@ width: 100%;
     line-height: 30px;
 }
 
-.cta__button:hover{
-    background-color: #ffffff;
-    color: #251F47;
-}
+
 
 .conclusion{
     padding: 50px 0;
@@ -377,7 +409,23 @@ hr {
     height: 700px;
 }
 
+.image__parent{
+    overflow: hidden;
+    padding-top: 30px;
+}
 
+
+.imageTwo{
+    padding: 0 50px 90px 105px;
+}
+
+.imageThree{
+    padding: 0 50px 90px 105px;
+}
+
+.imageFour{
+   padding: 0 135px;
+}
 
 .intro{
     font-family: 'Lato', sans-serif;
@@ -395,7 +443,7 @@ hr {
 
 }
 
-.intro__headline, .paragraph__headline, .paragraph__subheadline, .paragraph__logo{
+.intro__headline, .paragraph__headline, .paragraph__subheadline, .paragraph__logo, .stories__headline, .persona_headline{
     font-weight: 900;
     font-family: 'Lato', sans-serif;
     font-weight: black;
@@ -413,7 +461,7 @@ hr {
     text-align: left;
 }
 
-.intro__subheadline, .paragraph__headline, .white__header, .orange__header{
+.intro__subheadline, .paragraph__headline, .white__header, .orange__header, .stories_headline, .persona_headline{
     font-size: 24px;
     letter-spacing: .05em;
     line-height: 1.25em;
@@ -470,8 +518,8 @@ hr {
 .paragraph__headline{
     letter-spacing: .05em;
     color: #123684;
-    padding: 2em 2em 0 1em;
-    margin-left: 11%;
+    padding: .5em 2em;
+         }
 }
 
 .paragraph__headline.logo{
@@ -484,8 +532,13 @@ hr {
     padding: 25px;
     font-family: 'Lato', sans-serif;
 }
+
+.padding-bottom{
+    padding-bottom: 20px;
+}
+
 .paragraph__subheadline{
-    padding-left: 30px;
+    padding-left: 47px;
     font-size: 30px;
     letter-spacing: .05em;
     color: #123684;
@@ -533,8 +586,12 @@ hr {
 
 }
 
+.personas{
+    padding-top: 3em;
+}
+
 .persona__headline{
-    padding: 1em 2em;
+    padding: 1em 2em 0;
     font-size: 24px;
     color:  #251F47;
     font-weight: bold;
@@ -564,20 +621,20 @@ hr {
 }
 
 .persona__quote{
-    padding: 1em 3em 0;
+    padding: 1em 2em;
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
     font-family: 'Lato', sans-serif;
     color: #123684;
     line-height: 1.25em;
-
 }
+
 
 .paragraph__text{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding: 2em 1.5em;
+    padding: 2em 6em;
     line-height: 1.5em;
     margin: 0 auto;
 }
@@ -585,12 +642,9 @@ hr {
 .paragraph__text.user{
     list-style-type: circle;
     list-style-position: inside;
-    padding: .5em;
+    padding: .5em 3em;
 }
 
-.paragraph__text.user:last-of-type{
-    padding: 0 0 2em 0;
-}
 
 .paragraph_white{
     font-family: 'Montserrat', sans-serif;
@@ -600,6 +654,15 @@ hr {
 
 }
 
+.parent{
+    padding-top: 55px;
+}
+
+.stories__headline{
+    letter-spacing: .05em;
+    color: #123684;
+     padding: 0 2em 1em;
+}
 
 /**Persona background Color**/
 .persona__one{
@@ -614,7 +677,7 @@ hr {
     display: flex;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 25px;
+    padding: 2em 0 1em;
 }
 
 .preftest__parent{
@@ -766,12 +829,35 @@ hr {
 .white{
     background-color: #ffff;
 }
+
+.whiteText{
+    color: white;
+    margin-top: 50px;
+}
+
+.button{
+    color: white;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 25px;
+    letter-spacing: .05em;
+    margin-left: 25px;
+
+}
+
 .cases__button{
 display: flex;
 justify-content: center;
 }
 
 
+
+.yellow{
+    background-color: #DBA20E;
+}
 
 /*
 The are mobile changes

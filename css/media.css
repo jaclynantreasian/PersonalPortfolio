@@ -4,14 +4,29 @@
 
     .art__wrap{
         display: flex;
-        width: 30%;
+        width: 20%;
     }
     .art__wrap2{
         padding: 25px;
     }
+
     .art__image{
         width: 100%;
         max-width:450px;
+    }
+
+    .box{
+        width: 50%;
+    }
+
+    .box2{
+        width: 50%;
+    }
+
+    .box__container{
+        max-width: 1200px;      
+        display: flex;
+        flex-direction: row;
     }
 
     .buttons{
@@ -37,8 +52,7 @@
         justify-content: space-evenly;
 
         }
-
-
+  
     .cases__text{
         width: 30%;
     }
@@ -55,7 +69,16 @@
     .cases__mockup{
         flex-direction: row;
     }
+    
+    .flex{
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
 
+    .gather__logo{
+         height: 200px;
+    }
     .header{
             justify-content: center;
         }
@@ -66,12 +89,9 @@
     }
 
     .header__wrap{
-        width: 1200px;
+       max-width: 1200px;
     }
 
-    .image__parent {
-        padding-left: 50px;
-}
 
     .intro__subheadline{
         width: 70%;
@@ -87,9 +107,7 @@
         padding-top: 25px;
     }
 
-    .paragraph__headline{
-            padding: 2em 2em 0 1em;
-        }
+    
 
     .project__featured{
         display: flex;
@@ -100,6 +118,19 @@
     .paragraph__wrap{
         flex-direction: column;
         width: 60%;
+    }
+
+    .paragraph__text{
+        padding: 0 3em;
+
+    }
+
+    .paragraph_text.user{
+    padding: .5em 4em;
+    }
+
+    p.paragraph_text.intro{
+        padding: 2em 3em;
     }
 
     .past{
@@ -120,19 +151,22 @@
     /** circles in user survey 3 sections**/
     .personas{
         display: flex;
-        width: 80%
-        padding-left: 10%;
+        flex-direction: row wrap;
+        width: 100%;
     }
 
-    .persona_one{
-        display: flex;
+    .persona_container{
+        justify-content: space-around;
+    }
+
+    .persona__one{
         justify-content: flex-start;
          flex-flow: row wrap;
          width: 33.3333333%;
     }
 
-    .preftest__three__text{
-    text-align: center;
+    .pref__image{
+        height: 220px;
     }
 
     .problem{
@@ -197,4 +231,6 @@
         align-items: center;
         margin: 25px 0;
     }
+
+
 }

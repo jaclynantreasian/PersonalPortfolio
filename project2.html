@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaclyn Antreasian Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script type="text/javascript" src="js/circles.js"></script>
+
+</head>
+<body>
+    <header class="header">
+            <section class="header__wrap">
+            <a href="./index.html">
+            <img class="header__logo" src="images/logo.png" alt="Jaclyn Antreasian Logo"></a>
+            <i class="header__button fas fa-bars"></i>
+            <nav class="header__nav hidden">
+                <a href="./project.html"> <i class="fas fa-pencil-alt"></i>Work</a>
+                <a href="./about.html"><i class="far fa-user"></i>About</a>
+                <a href="https://www.behance.net/jaclynantre397"><i class="fab fa-behance-square"></i>Behance</a>
+                <a href="mailto:jaclynantreasian@gmail.com"><i class="far fa-handshake"></i>Contact</a>
+            </nav>
+            </section>
+        </header>
+        <section class="container">
+        <article class="gatherIntro">
+            <article class="project__text">
+                <h1 class="project_title"> North Shore Weather Service</h1>
+                <h5 class="project__page__sub">A meteorologist in your pocket, personalized and hyper local weather crafted by a local meteorologist.</h5>
+            </article>
+            <article class= "project__featured">
+            <a class="cta__button" href="https://www.behance.net/gallery/106399549/North-Shore-Weather-Service-App-Design">View the Design</a>
+            <img class="featured__image" src="images/NSWS.png" alt="mockup for NSWS"/>
+        </article>
+        </article>
+
+        <section class="rl">
+
+        <section class="tools__container">
+            <div class="tool__container">
+                <article class= "tools">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h5 class="white__header">Roles</h5>
+                </article>
+                <section class="intro_text">
+                    <p class="intro_paragraph">Research</p>
+                    <p class="intro_paragraph">Branding</p>
+                    <p class="intro_paragraph">Visual Design</p>
+                    <p class="intro_paragraph">User Testing</p>
+                    <p class="intro_paragraph">Identity</p>
+                </section>
+            </div>
+            <div class="tool__container">
+                <article class="tools">
+                    <i class="fas fa-tv"></i>
+                    <h5 class="white__header">Deliverables</h5>
+                </article>
+                <section class="intro_text">
+                    <p class="intro_paragraph">Low-Fidelity wireframes</p>
+                    <p class="intro_paragraph">User Personas</p>
+                    <p class="intro_paragraph">Logo design</p>
+                    <p class="intro_paragraph">Style Guide</p>
+                    <p class="intro_paragraph">Responsive App Design</p>
+                </section>
+            </div>
+            <div class="tool__container">
+                <article class="tools">
+                    <i class="fas fa-wrench"></i>
+                    <h5 class="white__header">Tools</h5>
+                </article>
+                <section class="intro_text">
+                    <p class="intro_paragraph">Figma</p>
+                    <p class="intro_paragraph">Usability Hub</p>
+                    <p class="intro_paragraph">Illustrator</p>
+                    <p class="last intro_paragraph">WordPress</p>
+                    <p class="last intro_paragraph">HTML/CSS</p>
+
+                </section>
+            </div>
+        </section>
+        <section class="probsolution">
+            <article class="problem">
+            <h5 class="orange__header">Problem</h5>
+            <p class="paragraph_white">A local meteorologist has a great fanbase on social media.  He starts getting a lot of messages how people are 
+                frustrated with their weather apps, they are riddled with ads and lack a focus on local weather.  
+            </p>
+            </article>
+            <article class="solution">
+                <h5 class="orange__header">Solution</h5>
+                <p class="paragraph_white">A meteorologist in your pocket, personalized and hyper local weather crafted by a local meteorologist.  NSWS
+                    focuses on local weather and includes current, daily and hourly forecasts a detailed storm center with models and analysis, live ligthning and so much more!
+                </p>
+            </article>
+            <div style="clear: both;"></div>
+    </section>
+    <section class="discover">
+            <h2 class="heading"> DISCOVERY </h2>
+            <hr/>
+            <h5 class="paragraph__headline">User survey</h5>
+            <p class='paragraph__text'>
+                My client felt he had a good idea of what his users were looking for, after years of getting requests for an app and app features.
+                I recommended we still do a survey and put it out to his 8K followers just to get a better idea of where their pain points were, 
+                and what features would be great to include in the new app.
+            </p>
+            <div class='survey__circles'>
+                <div class="survey__graph">
+                    <div class="survey__graph-container">
+                        <div class="survey__graph-circle" id="one-circle">
+                        </div>
+                        <p class="survey__graph-caption">
+                        use Google Drive for cloud storage
+                        </p>
+                    </div>
+                </div>
+                <div class="survey__graph">
+                    <div class="survey__graph-container">
+                        <div class="survey__graph-circle" id="two-circle">
+                        </div>
+                        <p class="survey__graph-caption">
+                            like having all their files in one place
+                        </p>
+                    </div>
+                </div>
+
+                <div class="survey__graph">
+                    <div class="survey__graph-container">
+                        <div class="survey__graph-circle" id="three-circle">
+                        </div>
+                        <p class="survey__graph-caption">
+                            think cloud storage can be disorganized
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <p class='paragraph__text'>
+                Out of the 64 responses we got, I noticed that a lot of people use weather apps for their main way to get the weather, but were frustrated with a clunky design filled 
+                with information they didn't need yet the apps didn't have the local coverage they are looking for.  Users loved the idea of having
+                in depth storm analysis and live lightning, but most weren't interested in marine data.  My client disagreed and thought that the survey was 
+                missing the many requests he had gotten over the years, and felt that coastal weather was a big focus of the North Shore culture.  
+                He decided to keep that information regardless of the user data I collected.
+            </p>
+            <article class="swot">
+            <p class="paragraph__text">
+            </p>
+            <div class="case__swot">
+                <img class="case__logo" src="images/dropbox.png" alt="dropbox logo"/>
+                <img class="case__logo" src="images/pintrest.png" alt="pintrest logo"/>
+                <img class="case__logo" src="images/google-drive.png" alt="google drive logo"/>
+            </div>
+            </article>
+
+                <h5 class="paragraph__headline">User Personas</h5>
+                <p class='paragraph__text'>
+                    To get an idea of the needs of different users, I developed some user personas. Julie the teacher, needs an easy way to share files with her coworkers and students.
+                    Roger needs a collaborative sharing experience for his freelance business. Forgetful Randy is a busy student who
+                    doesn&apos;t have lots of time to learn a new piece of software and wishes cloud storage wasn&apos;t so complicated.
+                </p>
+                <article class="personas">
+                    <div class="persona_container">
+            <section class="persona__one">
+                <div class="persona__images">
+                <img class="persona" src="images/proj2persona1.jpg" alt="User Persona"/>
+                </div>
+                <h5 class="main persona__headline"> Bud, 68, Retired</h5>
+                <p class='persona__quote'>&#34;Don&apos;t like the weather? Just wait a minute&#34;</p>
+                <p class='paragraph__text intro'>Bud considers himself a North Shore staple, He was here for the blizzard of 78, and all the major hurricanes 
+                    Nor’Easters and “scorchah summahs”.    He understands that weather can make an impact on daily life, and likes to be prepared just in 
+                    case because his daily routine is very important to him.  He takes care of his school-age grandchildren after school when his daughter 
+                    is working as a nurse.  She gets no days off and he finds that the reliable forecasters help him plan if the kid’s school will be closed
+                     or not.  He also spends a lot of time on his fishing boat in the summer and likes to be kept up to date on the tides.  Bud isn’t a big 
+                     fan of technology and prefers to be working with his hands on real-life projects rather than scrolling through a smartphone and while he
+                     as used weather apps in the past he feels they too general and wrong way too often.  He needs an app that is suepr easy to use, reliable 
+                     and from a forecaster with a good local reputation..</p>
+                <ul class="paragraph__headline">Goals</ul>
+                <li class="paragraph__text user">Wants a reliable forecast</li>
+                    <li class="paragraph__text user">Wants to know where he is getting his weather from and how they are working to make their decisions 
+                        accurately.</li>
+                    <li class="paragraph__text user">Wants a weatherman who is born and raised watching the same skies as him is a plus.</li>
+                    <ul class="paragraph__headline">Frustrations</ul>
+                    <li class="paragraph__text user">Feels that weather apps lack quality checks.</li>
+                    <li class="paragraph__text user">Doesn’t usually enjoy using a smartphone and feels apps are usually not worth the hassle</li>
+                    <li class="paragraph__text user">Feels TV meteorologists are more celebrities than forecasters these days</li>
+
+            </section>
+            <section class="persona__one">
+            <div class="persona__images">
+                <img class="persona" src="images/proj2persona2.jpg" alt="User Persona"/>
+            </div>
+                <h5 class= "main persona__headline"> Bill, 38, EMT dispatcher</h5>
+                <p class="persona__quote"> &#34;Knowing the weather can help me keep people safe&#34;</p>
+                <p class="paragraph__text intro">An EMT dispatcher by day, combined with an active lifestyle keep Bill busy.  
+                    Bill doesn&apos;t have time to watch meteorologists on TV and relies on weather apps to get the information he needs. 
+                     He uses the Weather Channel App, and enjoys the push notifications so that he knows how to prepare but find it doesn&apos;t
+                      provides enough updates on what to expect, especially during storms.  Being a dispatcher makes understanding road 
+                      conditions to be very important and he wishes there was a way to get the scoop with just the click of a button.
+                </p>
+                <ul class="paragraph__headline">Goals</ul>
+                <li class="paragraph__text user">Wishes he could see road conditions, hourly accumulation and other essential information for workers that need to drive in all 
+                    weather quickly and safely.</li>
+                <li class="paragraph__text user"> Wants weather predictions at least 24 hours in advance</li>
+                <li class="paragraph__text user">Wants a quick way to access important developments</li>
+                <ul class="paragraph__headline">Frustrations</ul>
+                <li class="paragraph__text user">Feels that weather apps are too general to give detailed information on local conditions.</li>
+                <li class="paragraph__text user">Always scrolling through information that isn't relevant</li>
+            </section>
+
+            <section class="persona__one">
+            <div class="persona__images">
+                <img class="persona" src="images/proj2persona3.jpg" alt="User Persona"/>
+            </div>
+                <h5 class="main persona__headline"> Evelyn, 43, Chemistry Teacher </h5>
+                <p class="persona__quote">&#34;Got to get the bread and milk!&#34;
+                </p>
+                <p class="paragraph__text intro">
+                    Evelyn is a Chemistry Teacher in her home town of Marblehead, where she grew up and recently decided to buy her first home at.  She loves 
+                    living by the sea and spends most of her time at the beach no matter the weather or season when she isn’t working.  Evelyn loves getting 
+                    as much information as she can about the weather, and will watch the weather channel and surf social media for the latest updates on the 
+                    biggest storms.  Evelyn occasionally uses the weather apps, but prefers to watch the meteorologists on TV because they have a lot more 
+                    information on local weather.  She would love a one stop shop where she can follow the storm on the go and share her
+                     awesome ocean storm shots with fellow weather geeks. 
+             </p>
+             <ul class="paragraph__headline">Goals</ul>
+             <li class="paragraph__text user">Wants to see local weather on the go and in real time</li>
+             <li class="paragraph__text user"> Wants live storm coverage</li>
+             <li class="paragraph__text user"> Sharing ocean storm shots with fellow weather geeks.</li>
+             <ul class="paragraph__headline">Frustrations</ul>
+             <li class="paragraph__text user">Hates feeling like she needs to be glued to the TV to get detailed local weather. </li>                
+             <li class="paragraph__text user">Loves the format and trustworthiness of meteorologists on social media but is trying to use Facebook less often</li>
+            </article>
+        </div>
+        </section>
+            <article class="stories">
+                <h5 class="paragraph__headline">User Stories</h5>
+                <p class="paragraph__text">
+                    Based on the results from the survey and using my user personas as a base, I went ahead and created
+                    some user stories to help prioritize features and define the scope of the project.
+                </p>
+                <div class="stories__mockup">
+                <img class="project__row-image" src="images/stories.png" alt="user stories"/>
+            </div>
+            </article>
+            </section>
+        <section class="ia">
+                <h2 class="heading">INFORMATION ARCHITECTURE</h2>
+                <hr/>
+                <h5 class="paragraph__headline">Wireframes and Testing</h5>
+                <p class="paragraph__text">
+                    I created Low-fidelity wireframes using Invision and tested them with a
+                     usability test script for 3 different users.  I wanted my tests to feature
+                     ease of onboarding, uploading and moving content. While users had an easy
+                     experience signing up and uploading, some users showed hesitation while
+                     moving content.  As I moved towards future iterations, I added some
+                     iconography for the move feature.
+                 </p>
+             </section>
+                 <section class="project__images-row">
+                 <img class="project__row-image" src="images/wireframe1.png" alt="wireframe"/>
+                 <img class="project__row-image" src="images/wireframe2.png" alt="wireframe"/>
+             </section>
+        <section class="visual">
+                 <article class="logo">
+                     <h2 class="heading">VISUAL DESIGN</h2>
+                     <hr/>
+                     <h5 class="paragraph__headline">Logo and Branding</h5>
+                     <p class="paragraph__text">
+                     Before I went on to higher fidelity prototypes, it was time to get a feel
+                     for the brand&apos;s vision and style. I knew the brand mission centered around
+                     bringing together people and content.   After lots of brainstorming,
+                     the name Gather formed. The community feel of Gather lended itself to a
+                     script font. Lobster was a perfect pairing for the vintage togetherness
+                     that is at the core of Gather&apos;s brand.  Open Sans as a supporting text was
+                     friendly, airy and easy to read.
+                    </p>
+                    <section class="branding_images">
+                    <h5 class="paragraph__headline logo">Logo</h5>
+                    <img class="gather__logo" src="images/gatherlogo.png" alt="Gather logo"/>
+                    <div class="project__images-row">
+                        <h5 class="label">Type</h5>
+                        <img class='project__row-image' src="images/gatherstyleguide1.jpg" alt="Gather color palette"/>
+                        <h5 class="label">Color</h5>
+                        <img class="project__row-image" src="images/gatherstyleguide2.jpg" alt="Gather typography"/>
+                    </div>
+                </section>
+             <h5 class="paragraph__headline">Preference Tests</h5>
+             <p class="paragraph__text">
+                 Still not sure of a few aspects of my design, I got the help
+                 of the public to help me with some final preference tests.
+                 I tested a folder design, features page and nav bar design on
+                 Usability Hub, with 32 responses here are the results:
+             </p>
+             <section class="preftest">
+            <img class="pref__image" src="images/dash2.png" alt="Folder Preference Test"/>
+             <img class="pref__image" src="images/dash3.png" alt="Folder Preference Test"/>
+             <img class="pref__image" src="images/dash1.png" alt="Folder Preference Test"/>
+         </section>
+         <section class="preftest">
+             <p class="preftest__one">14%</p>
+             <p class="preftest__one">14%</p>
+             <p class="preftest__one">71%</p>
+         </section>
+         <section class="project__images-row white">
+             <img class="project__row-image" src="images/preftest2.png" alt="Preference Test"/>
+             <p class="preftest">25%</p>
+             <img class="project__row-image" src="images/preftesttwo.png" alt="Preference Test"/>
+             <p class="pretest">75%</p>
+         </section>
+         <section="preftest">
+         <articl class="pref_float">
+            <img class="full" src="images/frame.png" alt="Preference Test"/>
+            <p class="preftest__three__text">25%</p>
+        </article>
+        <article class="pref_float">
+             <img class="full" src="images/frame3.png" alt="Preference Test"/>
+             <p class="preftest__three__text">75%</p>
+         </article>
+         </section>
+         </article>
+         <article class="hf">
+             <h5 class="heading">High Fidelity Prototypes</h5>
+             <p class="paragraph__text">
+                 Our high fidelity prototypes went through many design iterations based on user
+                 feedback.  During our first round of testing  users felt the iconography was
+                 hard to read, but when we made it bigger the design looked cluttered.  For our
+                 next iteration we simplified to a single icon which opened a drop down menu. Many
+                 design iterations later, users had a smooth experience uploading and organizing
+                 their content on the app.
+             </p>
+             </section>
+
+        </article>
+        <section class="design_mockups">
+        <h5 class="paragraph__headline">Sign Up Page</h5>
+
+        <p class="paragraph__text">
+            Sign up was easy to execute and many users were excited about the
+            opportunity to sign up via faceboook, something most testers expressed
+            that was their preferred sign up.  On the other hand, users expressed that the main
+            image on the sign up page didn’t connect with the brand message.  I also received feedback
+            that for sign up forms, putting the sign in prompts on top of the input fields rather than
+            inside was an even easier user experience.  After making those changes users were delighted
+            with a seamless and easy sign up process that left the excited to try the new app.</p>
+           <section class="project__images-row">
+               <p class="label"> Before </p>
+               <img class= "project__row-image" src="images/signupbefore.png" alt="sign up before"/>
+               <p class="label"> After </p>
+               <img class= "project__row-image" src="images/signup.png" alt="sign up after"/>
+           </section>
+
+           <h5 class="paragraph__headline">User Dashboard</h5>
+         <p class="paragraph__text">
+           Users thought the design was inviting but wanted more room for content, so Instead of
+           the large buttons at the top I added a smaller button on the side of the page for users
+            to add and upload new content from there, furthermore I shrunk the nav heading and logo
+            while also expanding the search bar.  User feedback thought the icons made moving and
+            sharing files easy, but design wise they said it felt tight so I condensed the icons
+            into a small drop down menu so it was still easy to navigate but maintained a clean
+            and easy to use interface </p>
+            <section class="signup">
+            <p class="label"> Before </p>
+           <img class= "project__row-image" src="images/dashhome.png" alt="High Fidelity Prototype"/>
+           <p class="label"> After </p>
+           <img class= "project__row-image" src="images/hfdash.png" alt="High Fidelity Prototype"/>
+
+       </section>
+        <article class="conclusion">
+            <h5 class="paragraph__headline">Conclusion</h5>
+            <p class="paragraph__text">
+                Working through Gather helped me gain confidence in the iterative process of design.  Creating
+                an app that centered around user content was challenging. After completing many rounds of user
+                feedback and design iterations, I was able to make a cloud storage app with a smooth user
+                experience.
+            </p>
+            <div class="c">
+            <a class="conclusion__button" href="https://www.behance.net/gallery/106399549/North-Shore-Weather-Service-App-Design">View the Design</a>
+            <div>
+        </article>
+
+    </section>
+</section>
+<footer>
+    <h2 class="footer__headline">Let&apos;s Connect!</h2>
+    <p class="footer__subheadline">Like my designs and want to work together?</p>
+    <div class="footer__button">
+   <a class="cta__button footer" href="mailto:jaclynantreasian@gmail.com">Contact Me!</a>
+    </div>
+    <article class="footer__display">
+   <a href="mailto:jaclynantreasian@gmail.com"> <i class="footer__icon far fa-envelope"></i></a>
+   <a href="https://www.linkedin.com/in/jaclyn-antreasian-a8494812a/" <i class="footer__icon fab fa-linkedin"></i></a>
+   <a href="https://github.com/jaclynantreasian" <i class="footer__icon fab fa-github-square"></i></a>
+</article>
+    <p class="copyright">&copy; 2020 Designed and Developed by Jackie Antreasian</p>
+
+</footer>
+</body>
+
+</html>
