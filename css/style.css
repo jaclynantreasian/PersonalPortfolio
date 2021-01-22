@@ -6,8 +6,6 @@ body{
     box-sizing: border-box;
 }
 
-
-
 .box{
     display: flex;
     flex-direction: column;
@@ -74,9 +72,15 @@ body{
 .bio__image{
     width: 80%;
     padding: 100px 25px 25px 25px;
-
 }
 
+.boxHeadline{
+    font-size: 64px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 100px;
+    line-height: 80px;
+}
 
 .last{
     padding-bottom: 50px;
@@ -97,7 +101,6 @@ body{
     background-color: #123684;
     display: flex;
     flex-direction: column;
-
 }
 
 .cases2{
@@ -240,6 +243,10 @@ width: 100%;
 .featured__image{
     width: 60%;
     padding: 25px 25px 50px 25px;
+}
+
+.flex{
+    display: flex;
 }
 
 .flows_parent{
@@ -757,11 +764,15 @@ hr {
 
 }
 
-.project__row-image{
+.project__row-image,
+.project__row-image2
+{
     width: 70%;
     padding: 25px;
     margin: 0 auto;
 }
+
+
 
 .stories__mockup{
     display: flex;

@@ -69,11 +69,21 @@
     .cases__mockup{
         flex-direction: row;
     }
+
+    .fullwidth{
+        width: 100%;
+    }
     
     .flex{
         display: flex;
         align-items: center;
-        flex-direction: column
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex_row{
+        display: flex;
+        flex-direction: row;
     }
 
     .gather__logo{
@@ -151,11 +161,12 @@
     /** circles in user survey 3 sections**/
     .personas{
         display: flex;
-        flex-direction: row wrap;
         width: 100%;
     }
 
     .persona_container{
+        padding-top: 50px;
+        display: flex;
         justify-content: space-around;
     }
 
@@ -220,9 +231,21 @@
         align-items: center;
         padding-left: 25px;
     }
+
+    .thirty{
+        width: 33%;
+        padding: 30px;
+    }
+
     .project__row-image{
         width: 40%;
         margin: 0 auto;
+    }
+    
+    .project__row-image2{
+    width: auto;
+    margin: 0 auto;
+    max-height: 600px;
     }
 
     .project__images-row{
@@ -231,6 +254,5 @@
         align-items: center;
         margin: 25px 0;
     }
-
 
 }
