@@ -429,10 +429,12 @@ hr {
 
 .imageThree{
     width: 65%;
+    padding-bottom: 10px;
 }
 
 .imageFour{
     width: 50%;
+    padding-bottom: 20px;
 }
 
 .intro{
