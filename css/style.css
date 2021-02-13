@@ -1,3 +1,5 @@
+
+
 .blue{
     background-color: #1E2C5F;
 }
@@ -11,23 +13,25 @@ body{
     flex-direction: column;
     color: white;
     width: 100%;
-    margin: 25px;
     font-size: 36px;
     letter-spacing: .05em;
     font-size: 36px;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
-    
+    height: 650px;
+    margin: 12.5px 0;
+    overflow: hidden;   
 }
 
 
 .box2{
+    margin: 12.5px 0;
     width: 100%;
-    margin: 25px;
-}
-
-.box__container{
-    height: 700px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .cases_white{
@@ -55,7 +59,7 @@ body{
 .art__image{
     width: 100%;
     border-radius: 50%;
-    max-width: 450px;
+    max-width: 250px;
 }
 
 .bio__headline{
@@ -70,15 +74,15 @@ body{
 }
 
 .bio__image{
-    width: 80%;
-    padding: 100px 25px 25px 25px;
+    padding-top: 60px;
+    max-height: 400px;
 }
 
 .boxHeadline{
-    font-size: 64px;
+    font-size: 56px;
     margin-left: 75px;
     margin-right: 75px;
-    padding-top: 100px;
+    padding: 50px 0;
     line-height: 80px;
 }
 
@@ -115,6 +119,7 @@ body{
 .cases__images{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .cases__headline{
@@ -133,7 +138,9 @@ body{
 }
 
 .cases__mockup{
-width: 100%;
+    bottom: 20px;
+    left: 150px;
+    width: 100%;
 }
 
 .cases__mockup2{
@@ -180,7 +187,7 @@ width: 100%;
 }
 
 .cyan{
-   background-color: #2D8CBA;
+   background-color: #33799b;
 }
 
 .conclusion__button{
@@ -198,8 +205,6 @@ width: 100%;
     margin: 0 auto;
     line-height: 30px;
 }
-
-
 
 .conclusion{
     padding: 50px 0;
@@ -245,9 +250,7 @@ width: 100%;
     padding: 25px 25px 50px 25px;
 }
 
-.flex{
-    display: flex;
-}
+
 
 .flows_parent{
     display: flex;
@@ -416,22 +419,22 @@ hr {
     height: 700px;
 }
 
-.image__parent{
-    overflow: hidden;
-    padding-top: 30px;
+.img_container{
+    width: 100%;
 }
 
-
 .imageTwo{
-    padding: 0 50px 90px 105px;
+    width: 75%;
 }
 
 .imageThree{
-    padding: 0 50px 90px 105px;
+    width: 65%;
+    padding-bottom: 10px;
 }
 
 .imageFour{
-   padding: 0 135px;
+    width: 50%;
+    padding-bottom: 20px;
 }
 
 .intro{
@@ -540,12 +543,9 @@ hr {
     font-family: 'Lato', sans-serif;
 }
 
-.padding-bottom{
-    padding-bottom: 20px;
-}
 
 .paragraph__subheadline{
-    padding-left: 47px;
+    padding-left: 93px;
     font-size: 30px;
     letter-spacing: .05em;
     color: #123684;
@@ -661,10 +661,6 @@ hr {
 
 }
 
-.parent{
-    padding-top: 55px;
-}
-
 .stories__headline{
     letter-spacing: .05em;
     color: #123684;
@@ -707,8 +703,6 @@ hr {
     display: flex;
     margin: 0 auto;
 }
-
-
 
 .problem{
     background-color: #123684;
@@ -771,8 +765,6 @@ hr {
     padding: 25px;
     margin: 0 auto;
 }
-
-
 
 .stories__mockup{
     display: flex;
@@ -843,7 +835,7 @@ hr {
 
 .whiteText{
     color: white;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .button{

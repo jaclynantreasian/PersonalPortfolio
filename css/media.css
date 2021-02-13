@@ -1,3 +1,19 @@
+@media only screen and (min-width: 600px){
+    .imageTwo{
+        width: 50%;
+    }
+
+    .imageThree{
+        width: 50%;
+        padding-bottom: 20px
+    }
+    
+    .imageFour{
+    width: 30%;
+    padding-bottom: 20px;
+        }
+
+}
 
 @media only screen and (min-width: 992px) {
 
@@ -15,18 +31,35 @@
         max-width:450px;
     }
 
+    .bio__image{
+        max-height: 700px;
+    }
+
     .box{
         width: 50%;
+        margin: 12.5px;
+        
     }
 
     .box2{
         width: 50%;
+        margin: 12.5px;
     }
 
     .box__container{
         max-width: 1200px;      
         display: flex;
         flex-direction: row;
+    }
+
+    .box__container2{
+        max-width: 1200px;      
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .boxHeadline{
+        padding-top: 100px;
     }
 
     .buttons{
@@ -102,6 +135,28 @@
        max-width: 1200px;
     }
 
+    .img_container{
+        margin-left: 30px;
+        width: 100%;
+        max-width: 500px;
+        padding-top: 80px;   
+     }
+    
+    
+     .imageTwo{
+        width: 70%;
+    }
+
+    .imageThree{
+        width: 60%;
+        padding-bottom: 20px
+    }
+
+    
+    .imageFour{
+    width: 45%;
+    padding-bottom: 20px;
+        }
 
     .intro__subheadline{
         width: 70%;
@@ -117,7 +172,17 @@
         padding-top: 25px;
     }
 
-    
+    .padding-bottom{
+        padding-bottom: 20px;
+    }
+ .paragraph__subheadline{  
+    padding-left: 47px;
+ } 
+
+.parent{
+    padding-top: 36px;
+}
+
 
     .project__featured{
         display: flex;
@@ -213,6 +278,11 @@
         align-items: center;
     }
 
+    .flex_column{
+        flex-direction: column;
+        width: 70%;
+    }
+
     .survey__graph-caption{
         text-align: center;
     }
@@ -241,7 +311,7 @@
         width: 40%;
         margin: 0 auto;
     }
-    
+
     .project__row-image2{
     width: auto;
     margin: 0 auto;
